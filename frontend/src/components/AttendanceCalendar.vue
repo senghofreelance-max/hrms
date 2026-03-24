@@ -69,12 +69,12 @@ const __ = inject("$translate")
 const firstOfMonth = ref(dayjs().date(1).startOf("D"))
 
 const colorMap = {
-	Present: "bg-green-300",
-	"Work From Home": "bg-green-300",
+	Present: "bg-green-400",
+	"Work From Home": "bg-green-400",
 	"Half Day": "bg-yellow-200",
-	Absent: "bg-red-200",
-	"On Leave": "bg-blue-300",
-	Holiday: "bg-gray-300",
+	Absent: "bg-red-400",
+	"On Leave": "bg-blue-400",
+	Holiday: "bg-gray-400",
 }
 
 // __("Present"), __("Half Day"), __("Absent"), __("On Leave"), __("Work From Home")
